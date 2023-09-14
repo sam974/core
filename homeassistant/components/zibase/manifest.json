@@ -1,0 +1,13 @@
+{
+  "domain": "zibase",
+  "name": "Zibase welcome",
+  "codeowners": ["@sam974"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/zibase",
+  "homekit": {},
+  "iot_class": "local_polling",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}
