@@ -250,7 +250,7 @@ class ZiBase:
         """Send request to zibase via the network."""
 
         _LOGGER.debug("Send request#IP_ZIBASE=%s", self.ip)
-        buffer = request.toBinaryArray()
+        buffer = request.to_binary_array()
         response = None
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.settimeout(5)
